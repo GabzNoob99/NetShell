@@ -1,0 +1,8 @@
+instal dependences:
+pip install -r requirements.txt
+
+execute:
+python main.py
+
+if your pc dont have python, please install, else this program dont execute normally.
+(sory, i don't speek english a lot...)

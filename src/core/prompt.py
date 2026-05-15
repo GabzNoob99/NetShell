@@ -6,4 +6,4 @@ def get_prompt():
 
     prompt_name = os.path.basename(cwd) or cwd
 
-    return f"{prompt_name} $ "
+    return f"{prompt_name} $"

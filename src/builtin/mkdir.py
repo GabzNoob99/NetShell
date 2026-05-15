@@ -4,7 +4,7 @@ from rich import print
 def mkdir_command(args):
 
     if not args:
-        dir_name = input('> ').strip()
+        dir_name = input('>').strip()
 
     else:
         dir_name = args[0]

@@ -47,6 +47,7 @@ The project was created for learning:
 | `cat` | Reads files |
 | `rnm` | Renames files/directories |
 | `echo` | Prints messages |
+| `gdp` | package manager (building) |
 
 ---
 
@@ -58,24 +59,23 @@ netshell/
 ├── src/
 │   ├── core/
 │   └── builtin/
-│
 ├── assets/
-├── config/
+├── dist/
+|    ├── documents/
+|    └── ntsl_1.6.0A.exe
 ├── docs/
-├── scripts/
-├── tests/
-│
-├── ntsl_1.5_main.py
-└── requirements.txt
+├── ntsl_main.py
+└── ntsl_1.6.0A.exe
 ```
 
-## Install dependencies:
+## Execute Without Executable:
 
-`pip install -r requirements.txt`
+- `pip install rich`
+- `python ntsl_main.py`
 
+## Thanks!
+account:
+https://github.com/GabzNoob99
 
-## Run NetShell:
-
-`python ntsl_1.5_main.py`
-
-## thanks!
+project:
+https://github.com/GabzNoob99/NetShell

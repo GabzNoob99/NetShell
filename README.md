@@ -2,7 +2,7 @@
 
 A lightweight shell made in Python.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Status](https://img.shields.io/badge/status-development-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -47,7 +47,7 @@ The project was created for learning:
 | `cat` | Reads files |
 | `rnm` | Renames files/directories |
 | `echo` | Prints messages |
-| `gdp` | package manager (building) |
+| `about` | about NetShell |
 
 ---
 
@@ -60,9 +60,6 @@ netshell/
 │   ├── core/
 │   └── builtin/
 ├── assets/
-├── dist/
-|    ├── documents/
-|    └── ntsl_1.6.0A.exe
 ├── docs/
 ├── ntsl_main.py
 └── ntsl_1.6.0A.exe

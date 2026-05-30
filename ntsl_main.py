@@ -16,6 +16,7 @@ from src.builtin.touch import touch_command
 from src.builtin.cat import cat_command
 from src.builtin.rnm import rnm_command
 from src.builtin.echo import echo_command
+from src.builtin.about import about_command
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -38,7 +39,8 @@ commands = {
     "touch": touch_command,
     "cat": cat_command,
     "rnm": rnm_command,
-    "echo": echo_command
+    "echo": echo_command,
+    "about": about_command
 }
 
 while True:
